@@ -37,6 +37,7 @@ function startTimer() {
         minutesEl.textContent = formaTime(minutes);
         secondsEl.textContent = formaTime(seconds);
         millisecondsEl.textContent = formatMilliseconds(milliseconds);
+        
       }
     },  10 );
 

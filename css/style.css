@@ -6,47 +6,58 @@
 }
 
 .container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  padding-top: 3rem;
-  background-color:#a3000a;
   height: 100vh;
+  background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 
  
 }
 
 .timer {
-  display: flex;
-  font-size: 55px;
-  font-weight: bold;
-  color: #fff;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
 }
 
 .time {
+  height: 170px;
+  width: 150px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
   color: #fff;
-  min-width: 90px;
+  background: rgba(5, 5, 5, .9);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+  border-radius: 7px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  font-size: 60px;
+ 
 }
 
 .separator {
-  padding: 0 10px;
-  color:#fff;
+  font-weight: bolder;
+  font-size: 60px;
 }
 
 #milliseconds {
-  font-size: 30px;
-  color:#fff;
+  font-weight: bolder;
+  font-size: 60px;
 }
-
-.buttons {
+ .buttons{
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  justify-content: space-around; 
+ 
 }
 
 .btn {
@@ -54,9 +65,16 @@
   font-size: 18px;
   font-weight: bold;
   border-radius: 30px;
-  cursor: pointer;
   border: 2px solid rgb(239, 215, 38);
   transition: all 0.2s ease-in-out;
+
+  /*display: inline-block;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;*/
+  /*cursor: pointer;*/
+
+
 }
 
 .btn:hover {
